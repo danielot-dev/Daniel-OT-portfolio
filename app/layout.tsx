@@ -5,6 +5,11 @@ import Footer from './components/Footer'
 import ParticlesBackground from './components/ParticlesBackground'
 import './globals.css'
 
+export const metadata: Metadata = {
+  title: "Daniel OT | Portfolio",
+  description: "My professional portfolio"
+}
+
 interface LayoutProps {
   children: ReactNode
   title?: string
