@@ -11,7 +11,7 @@ interface LayoutProps {
   description?: string
 }
 
-export default function Layout({ children, title = 'Portfolio', description = 'My professional portfolio' }: LayoutProps) {
+export default function Layout({ children, title = 'Daniel OT | Portfolio', description = 'My professional portfolio' }: LayoutProps) {
   return (
     <html lang="en">
       <Head>
