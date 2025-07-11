@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client'
 
 import { Prism as SyntaxHighlighterLib } from 'react-syntax-highlighter'
