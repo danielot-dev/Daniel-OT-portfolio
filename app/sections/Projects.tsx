@@ -46,16 +46,7 @@ const projects = [
   },
 ]
 
-const defaultOptions = {
-  reverse: false,
-  max: 8,
-  perspective: 1000,
-  scale: 1,
-  transition: true,
-  axis: null,
-  reset: true,
-  easing: "cubic-bezier(.03,.98,.52,.99)",
-}
+
 
 export default function Projects() {
   return (
@@ -72,7 +63,7 @@ export default function Projects() {
             Featured <span className="text-gold-500">Creations</span>
           </h2>
           <p className="text-lg text-navy-700 dark:text-navy-300 max-w-2xl mx-auto">
-            Projects I've poured my creativity and code into
+            Projects I&apos;ve poured my creativity and code into
           </p>
         </motion.div>
 
