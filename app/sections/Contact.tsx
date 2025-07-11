@@ -1,7 +1,7 @@
 'use client'
 import { motion, useAnimation } from 'framer-motion'
 import { useState, useRef } from 'react'
-import { FiMail, FiPhone, FiMapPin, FiSend, FiCheck } from 'react-icons/fi'
+import { FiMail, FiPhone, FiSend} from 'react-icons/fi'
 import { FaTelegramPlane, FaWhatsapp } from 'react-icons/fa'
 
 export default function Contact() {
@@ -77,7 +77,7 @@ export default function Contact() {
             </div>
           </motion.div>
           <h2 className="text-5xl md:text-6xl font-bold text-navy-950 dark:text-white mb-4">
-            Let's <span className="text-gold-500">Work Together</span>
+            Let&apos;s <span className="text-gold-500">Work Together</span>
           </h2>
           <p className="text-xl text-navy-700 dark:text-navy-300 max-w-2xl mx-auto">
             Choose your preferred way to get in touch
@@ -103,7 +103,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold text-navy-950 dark:text-white">Email</h3>
             </div>
             <p className="text-navy-700 dark:text-navy-300 mb-6">
-              Send me a detailed message and I'll respond within 24 hours
+              Send me a detailed message and I&apos;ll respond within 24 hours
             </p>
             <a 
               href="mailto:Danielot491@gmail.com" 
