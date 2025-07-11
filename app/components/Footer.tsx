@@ -1,7 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { FaGithub, FaLinkedin, FaTwitter, FaCodepen, FaHeart } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from 'react-icons/fa'
 import { FiMail, FiArrowUp } from 'react-icons/fi'
 
 export default function Footer() {
@@ -123,7 +123,7 @@ export default function Footer() {
 
           {/* Social/Contact */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Let's Connect</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">Let&apos;s Connect</h3>
             <div className="flex flex-wrap gap-3 mb-6">
               {socialLinks.map((link, index) => (
                 <motion.a
