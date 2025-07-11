@@ -7,8 +7,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: "Daniel OT | Portfolio",
-  description: "My professional portfolio"
-}
+  description: "My professional portfolio",
+};
 
 interface LayoutProps {
   children: ReactNode
