@@ -95,7 +95,7 @@ export default function About() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
             >
-              I'm a passionate full-stack developer specializing in creating immersive digital experiences. With a unique blend of technical expertise and design sensibility, I build applications that are not just functional but tell a story. My approach combines cutting-edge technology with human-centered design principles.
+              I&apos;m a passionate full-stack developer specializing in creating immersive digital experiences. With a unique blend of technical expertise and design sensibility, I build applications that are not just functional but tell a story. My approach combines cutting-edge technology with human-centered design principles.
             </motion.p>
 
             {/* Animated skills cloud */}
