@@ -58,7 +58,7 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-gold-500 font-mono text-4xl mb-4"
           >
-            Hi there! I'm
+            Hi there! I&apos;m
           </motion.p>
           
           <motion.h1
