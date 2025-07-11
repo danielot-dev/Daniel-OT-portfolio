@@ -1,4 +1,4 @@
- /* eslint-disable */
+// @ts-nocheck
 // app/blog/[slug]/page.jsx
 import Link from 'next/link'
 import { FiCalendar, FiClock, FiTag, FiArrowLeft } from 'react-icons/fi'
