@@ -135,13 +135,13 @@ export default function Contact() {
             </p>
             <div className="flex gap-3">
               <a 
-                href="tel:+2349066165370" 
+                href="tel:+2349061665370" 
                 className="inline-flex items-center gap-2 px-4 py-2 bg-gold-500/10 text-gold-600 dark:text-gold-400 rounded-lg hover:bg-gold-500/20 transition-colors"
               >
                 <FiPhone /> Call Now
               </a>
               <a 
-                href="https://wa.me/2349066165370" 
+                href="https://wa.me/2349061665370" 
                 target="_blank"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 text-green-600 dark:text-green-400 rounded-lg hover:bg-green-500/20 transition-colors"
               >
