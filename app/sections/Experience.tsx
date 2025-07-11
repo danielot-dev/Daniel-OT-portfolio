@@ -60,7 +60,7 @@ export default function Experience() {
             Career <span className="text-gold-500">Journey</span>
           </h2>
           <p className="text-lg text-navy-700 dark:text-navy-300 max-w-2xl mx-auto">
-            From my first line of code to leading projects - here's my story
+            From my first line of code to leading projects - here&apos;s my story
           </p>
         </motion.div>
 
