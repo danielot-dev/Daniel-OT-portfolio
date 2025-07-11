@@ -51,7 +51,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="flex items-center space-x-4">
-            <ThemeToggle />
+          
             <button 
               className="md:hidden text-white"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
