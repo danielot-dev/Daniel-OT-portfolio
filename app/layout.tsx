@@ -28,7 +28,7 @@ export default function Layout({
       <div className="min-h-screen flex flex-col relative">
         <ParticlesBackground />
         <Navbar />
-        <main className="flex-grow container mx-auto px-4 md:px-6">
+        <main className="flex-grow container mx-auto px-4 md:px-6 md:items-center justify-center ">
           {children}
         </main>
         <Footer />
