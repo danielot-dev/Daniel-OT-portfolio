@@ -131,7 +131,7 @@ export default function About() {
               <motion.a
                 whileHover={{ y: -5, scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/resume.pdf"
+                href="/Resume.pdf"
                 download
                 className="px-8 py-4 bg-gradient-to-r from-gold-500 to-gold-600 text-navy-900 font-bold rounded-xl hover:shadow-gold-lg transition-all duration-300 flex items-center gap-3"
               >
