@@ -23,6 +23,7 @@ export default function Layout({ children, title = 'Daniel OT | Portfolio', desc
         <title>{title}</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body>
         <div className="min-h-screen flex flex-col">
