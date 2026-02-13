@@ -5,19 +5,19 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi'
 import Tilt  from 'react-parallax-tilt'
 
 const projects = [
-  // {
-  //   id: 1,
-  //   title: 'E-commerce Platform',
-  //   description: 'Built a high-performance online store handling 500+ daily transactions with Stripe integration and admin dashboard',
-  //   tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-  //   image: '/images/portfolio1.jpg',
-  //   link: '#',
-  //   github: 'https://github.com/danielot-dev',
-  //   stats: [
-  //     { value: '40%', label: 'Faster load' },
-  //     { value: '500+', label: 'Daily users' }
-  //   ]
-  // },
+  {
+    id: 1,
+    title: 'E-learning Platform',
+    description: 'Built a high-performance online learning platform that has 20+ courses and an admin dashboard',
+    tags: ['JAVASCRIPT', 'HTML', 'MongoDB', 'Php'],
+    image: '/images/learn hub.png',
+    link: 'https://group-20.great-site.net/',
+    github: 'https://github.com/danielot-dev',
+    stats: [
+      { value: '40%', label: 'Faster load' },
+      { value: '20+', label: 'Daily users' }
+    ]
+  },
   {
     id: 2,
     title: 'Portfolio Website',
@@ -33,11 +33,11 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Job Search Website',
-    description: 'Created a collaborative productivity tool for job seekers with real-time updates and Firebase integration',
+    title: 'Agro based learning platform',
+    description: 'An agricultural based learning platform',
     tags: ['HTML', 'CSS', 'JavaScript'],
-    image: '/images/job-search-pro.png',
-    link: 'https://danielot-dev.github.io/job-search-pro/',
+    image: '/images/farm savvy.png',
+    link: 'https://farm-savvy-pi.vercel.app/',
     github: 'https://github.com/danielot-dev',
     stats: [
       { value: '20+', label: 'Teams' },
@@ -172,3 +172,4 @@ export default function Projects() {
     </section>
   )
 }
+
