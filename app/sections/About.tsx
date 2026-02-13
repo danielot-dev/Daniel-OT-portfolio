@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
+import Image from 'next/images'
 import { FaCode, FaPalette, FaRocket, FaDownload, FaPaperPlane } from 'react-icons/fa'
 
 export default function About() {
@@ -155,5 +155,6 @@ export default function About() {
     </section>
   )
 }
+
 
 
