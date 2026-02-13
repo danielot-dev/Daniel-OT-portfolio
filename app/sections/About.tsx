@@ -65,7 +65,7 @@ export default function About() {
           >
             <div className="relative w-72 h-72 lg:w-80 lg:h-80 rounded-3xl overflow-hidden border-4 border-gold-500/30 shadow-2xl">
               <Image 
-                src="/images/IMG_4118.jpg" 
+                src="/images/IMG_4118.jpeg" 
                 alt="Profile Picture" 
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -155,4 +155,5 @@ export default function About() {
     </section>
   )
 }
+
 
